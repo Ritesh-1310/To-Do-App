@@ -1,16 +1,45 @@
-# todo_app
+# To-Do App with Flutter
 
-A new Flutter project.
+This is a To-Do app developed using Flutter that interacts with a JSON API to manage tasks. The app allows users to add, edit, and mark tasks as completed while utilizing state management through the Provider library to maintain data locally.
 
-## Getting Started
+## Features
+- Display a list of tasks retrieved from JSONPlaceholder API.
+- Each task showcases its title, completion status, and offers options to edit or mark as complete/uncomplete.
+- A form is provided for adding new tasks.
+- Edit functionality available to modify existing task titles
 
-This project is a starting point for a Flutter application.
+## Requirements
+- Flutter: This app is built using Flutter, ensuring cross-platform compatibility.
+- State Management: Utilizes Provider library for efficient state management.
+- API Integration: Fetches tasks from jsonplaceholder.typicode.com/todos and updates the local states accordingly.
+- User Interface: Simple yet intuitive design for smooth task management.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+- Clone the repository: git clone https://github.com/your-username/to-do-app.git
+- Navigate to the project directory: cd to-do-app
+- Run the app: flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
+Upon running the app, you'll be able to:
+- View a list of tasks fetched from the JSONPlaceholder API.
+- Add new tasks using the provided form.
+- Edit existing task titles.
+- Mark tasks as complete or uncomplete.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technology Stack
+- Flutter: Frontend development framework.
+- Provider: State management library for Flutter.
+- JSONPlaceholder API: Used for fetching and updating tasks.
+
+## Code Structure
+- 'lib/': Contains all the Flutter code.
+  - 'main.dart': Entry point of the application.
+  - 'screens/': UI screens for different functionalities.
+  - 'models/': Data models for tasks.
+  - 'services/': Integration with the JSONPlaceholder API.
+  - 'providers/': State management providers using the Provider library.
+  - 'widgets/': Reusable UI components and custom widgets.
+
+## Contributions
+Contributions to enhance the app's functionality or fix issues are welcome! Feel free to fork the repository, create a new branch, and submit a pull request for review.
+
