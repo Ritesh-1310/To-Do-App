@@ -14,10 +14,12 @@ This is a To-Do app developed using Flutter that interacts with a JSON API to ma
 - API Integration: Fetches tasks from jsonplaceholder.typicode.com/todos and updates the local states accordingly.
 - User Interface: Simple yet intuitive design for smooth task management.
 
-## Installation
-- Clone the repository: git clone https://github.com/your-username/to-do-app.git
-- Navigate to the project directory: cd to-do-app
-- Run the app: flutter run
+## APK Download
+You can download the pre-built APK of the To-Do app from the following link:
+https://drive.google.com/file/d/1NGJMtTgaK5PKlMUhtc_KGsYjp-byJPbo/view?usp=sharing
+
+Once downloaded, you can install the app on your Android device by enabling installation from unknown sources in your device settings and then opening the downloaded APK file.
+
 
 ## Usage
 Upon running the app, you'll be able to:
